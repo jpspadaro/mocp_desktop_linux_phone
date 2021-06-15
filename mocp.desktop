@@ -13,7 +13,7 @@ Name=mocp
 Comment=Launcher for the mocp terminal-based audio player client.
 
 # The path to the folder in which the executable is run
-Path=~/
+Path=/
 
 # The executable of the application, possibly with arguments.
 Exec=/usr/bin/kgx -e "/usr/bin/mocp" --wait
