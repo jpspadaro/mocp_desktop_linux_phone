@@ -22,23 +22,23 @@ Exec=kgx -e "/usr/bin/mocp"
 Icon=media-playback-start
 
 # Describes whether this application needs to be run in a terminal or not
-Terminal=true
+Terminal=false
 
 # Describes the categories in which this entry should be shown
 Categories=Multimedia
 
-[Desktop Action Stop]
+[Desktop Action stop]
 Exec=/usr/bin/mocp --stop
 Name=Stop
 
-[Desktop Action Next]
+[Desktop Action next]
 Exec=/usr/bin/mocp --next
 Name=Next
 
-[Desktop Action Previous]
+[Desktop Action previous]
 Exec=/usr/bin/mocp --previous
 Name=Previous
 
-[Desktop Action Play-Pause]
+[Desktop Action play-pause]
 Exec=/usr/bin/mocp --toggle-pause
 Name=Play-Pause
