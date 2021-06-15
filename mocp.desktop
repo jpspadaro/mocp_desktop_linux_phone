@@ -16,7 +16,7 @@ Comment=Launcher for the mocp terminal-based audio player client.
 Path=~/
 
 # The executable of the application, possibly with arguments.
-Exec=/usr/bin/mocp
+Exec=kgx -e "/usr/bin/mocp"
 
 # The name of the icon that will be used to display this entry
 Icon=media-playback-start
