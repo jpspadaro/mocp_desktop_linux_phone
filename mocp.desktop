@@ -1,0 +1,44 @@
+[Desktop Entry]
+
+# The type as listed above
+Type=Application
+
+# The version of the desktop entry specification to which this file complies
+Version=1.0
+
+# The name of the application
+Name=mocp
+
+# A comment which can/will be used as a tooltip
+Comment=Launcher for the mocp terminal-based audio player client.
+
+# The path to the folder in which the executable is run
+Path=~/
+
+# The executable of the application, possibly with arguments.
+Exec=/usr/bin/mocp
+
+# The name of the icon that will be used to display this entry
+Icon=media-playback-start
+
+# Describes whether this application needs to be run in a terminal or not
+Terminal=true
+
+# Describes the categories in which this entry should be shown
+Categories=Multimedia
+
+[Desktop Action Stop]
+Exec=/usr/bin/mocp --stop
+Name=Stop
+
+[Desktop Action Next]
+Exec=/usr/bin/mocp --next
+Name=Next
+
+[Desktop Action Previous]
+Exec=/usr/bin/mocp --previous
+Name=Previous
+
+[Desktop Action Play-Pause]
+Exec=/usr/bin/mocp --toggle-pause
+Name=Play-Pause
